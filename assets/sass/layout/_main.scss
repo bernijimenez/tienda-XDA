@@ -1,0 +1,47 @@
+.aside-block {
+    background-image: url('../img/model.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 40rem;
+
+}
+.hero {
+  position: absolute;
+  background-color: $white;
+  padding: 6vw;
+  padding-top: 12vw;
+  margin-right: 60vw;
+
+  @media (max-width: 500px) {
+    .hero {
+      position: absolute;
+      background-color: $white;
+      width: 30px
+      padding-top: 20vw;
+
+    
+    }
+
+  &__text {
+    position: absolute;
+    background-color: $white;
+    padding: 60px;
+    margin-right: 21vw;
+
+  }
+
+  &__text-title {
+
+    margin:0;
+  }
+  &__text-info {
+    padding: 0;
+    margin-left: 5vw;
+    width: 10vw;
+
+  }
+
+
+}

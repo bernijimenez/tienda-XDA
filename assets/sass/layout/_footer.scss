@@ -1,0 +1,26 @@
+.newsletter {
+  position: relative;
+  float: left;
+  background-color: $smoky-black;
+  width: 40vw;
+  height: 14vw;
+  color: $white;
+  margin-top: 460px;
+  padding-top: 140px;
+
+}
+
+.newsletter__title {
+  padding-left: 50px;
+  padding-bottom: 20px;
+
+}
+
+span {
+  background-color: $white;
+}
+
+.newsletter__sub {
+  color: $smoky-black;
+transform: rotate(90deg);
+}

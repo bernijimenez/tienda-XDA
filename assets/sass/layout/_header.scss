@@ -1,0 +1,23 @@
+.logo {
+  float: left;
+  display: block;
+  background: $smoky-black;
+  padding: 30px;
+  &____type {
+    float: left;
+      color: $white;
+      margin-top: 15px;
+      font-size: $xxx-large;
+  }
+}
+
+header {
+
+  .navbar {
+    float: right;
+  }
+
+  .nav-item {
+    margin-top: 20px;
+  }
+}
