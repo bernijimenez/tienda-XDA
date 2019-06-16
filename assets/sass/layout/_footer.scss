@@ -8,19 +8,33 @@
   margin-top: 460px;
   padding-top: 140px;
 
-}
+  @media (max-width: 500px) {
+    .newsletter {
+      position: relative;
+      float: left;
+      background-color: $smoky-black;
+      width: 40vw;
+      height: 100%;
+      color: $white;
+      margin-top: 500px;
+      padding-top: 400px;
+    }
+  }
+  &__title {
 
-.newsletter__title {
-  padding-left: 50px;
-  padding-bottom: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    margin-top: -90px;
+  }
 
-}
-
-span {
+  &__sub {
   background-color: $white;
-}
-
-.newsletter__sub {
   color: $smoky-black;
-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 180px;
+  height: 40px;
+  margin-top: -70px;
+  text-align: center;
+  margin-left:-50px;
+}
 }

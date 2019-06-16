@@ -7,41 +7,58 @@
     padding-bottom: 40rem;
 
 }
+
 .hero {
   position: absolute;
   background-color: $white;
-  padding: 6vw;
+  padding: 7vw;
+  width: 40%;
+  height:100vw;
   padding-top: 12vw;
-  margin-right: 60vw;
-
+  margin-right: 70vw;
+}
   @media (max-width: 500px) {
     .hero {
       position: absolute;
       background-color: $white;
-      width: 30px
-      padding-top: 20vw;
+      padding-right: 100%;
+      width: 0%;
+      height:30%;
+      margin-top: 110vw;
 
-    
     }
+  }
 
-  &__text {
+
+  .hero__text {
     position: absolute;
     background-color: $white;
     padding: 60px;
     margin-right: 21vw;
-
+}
+    @media (max-width: 500px) {
+      .hero__text {
+        position: absolute;
+        padding: 100%;
+        margin-left: 40vw;
+        text-align: center;
+      }
   }
 
-  &__text-title {
-
+  .hero__text-title {
     margin:0;
   }
-  &__text-info {
+  .hero__text-info {
     padding: 0;
     margin-left: 5vw;
     width: 10vw;
+    }
 
-  }
-
-
-}
+    @media (max-width: 500px) {
+      .hero__text-info {
+        padding: 0;
+        margin-left: 8vw;
+        width: 10vw;
+        text-align: center;
+      }
+      }

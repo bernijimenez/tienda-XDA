@@ -9757,19 +9757,32 @@ span {
   margin-top: 460px;
   padding-top: 140px;
 }
-
+@media (max-width: 500px) {
+  .newsletter .newsletter {
+    position: relative;
+    float: left;
+    background-color: #0C0910;
+    width: 40vw;
+    height: 14vw;
+    color: #FFF;
+    margin-top: 460px;
+    padding-top: 200px;
+  }
+}
 .newsletter__title {
   padding-left: 50px;
   padding-bottom: 20px;
+  margin-top: -90px;
 }
-
-span {
-  background-color: #FFF;
-}
-
 .newsletter__sub {
+  background-color: #FFF;
   color: #0C0910;
   transform: rotate(90deg);
+  width: 180px;
+  height: 40px;
+  margin-top: -70px;
+  text-align: center;
+  margin-left: -50px;
 }
 
 .logo {
@@ -9804,9 +9817,22 @@ header .nav-item {
 .hero {
   position: absolute;
   background-color: #FFF;
-  padding: 6vw;
+  padding: 7vw;
+  width: 40%;
+  height: 100vw;
   padding-top: 12vw;
-  margin-right: 60vw;
+  margin-right: 70vw;
+}
+
+@media (max-width: 500px) {
+  .hero {
+    position: absolute;
+    background-color: #FFF;
+    padding-right: 100%;
+    width: 0%;
+    height: 30%;
+    margin-top: 110vw;
+  }
 }
 .hero__text {
   position: absolute;
@@ -9814,20 +9840,31 @@ header .nav-item {
   padding: 60px;
   margin-right: 21vw;
 }
+
+@media (max-width: 500px) {
+  .hero__text {
+    position: absolute;
+    padding: 100%;
+    margin-left: 40vw;
+    text-align: center;
+  }
+}
 .hero__text-title {
   margin: 0;
 }
+
 .hero__text-info {
   padding: 0;
   margin-left: 5vw;
   width: 10vw;
 }
+
 @media (max-width: 500px) {
-  .hero .hero {
-    position: absolute;
-    background-color: #FFF;
-    padding: 6vw;
-    padding-top: 20vw;
+  .hero__text-info {
+    padding: 0;
+    margin-left: 8vw;
+    width: 10vw;
+    text-align: center;
   }
 }
 
